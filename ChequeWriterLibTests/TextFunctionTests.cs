@@ -81,12 +81,12 @@ public class TextFunctionTests
     [Fact]
     public void SpellDollarsAndCents_ShouldError_WhenMoneyMoreThan2Billions()
     {
-        Assert.Throws(typeof(ArgumentOutOfRangeException), ()=>TextFunctions.SpellDollarsAndCents(2_000_000_001));
+        Assert.Throws<ArgumentOutOfRangeException>(()=>TextFunctions.SpellDollarsAndCents(2_000_000_001));
     }
     
     [Fact]
     public void SpellDollarsAndCents_ShouldError_WhenMoneyLessThanZero()
     {
-        Assert.Throws(typeof(ArgumentOutOfRangeException), ()=>TextFunctions.SpellDollarsAndCents(-1));
+        Assert.Throws<ArgumentOutOfRangeException>(()=>TextFunctions.SpellDollarsAndCents(-1));
     }
 }
