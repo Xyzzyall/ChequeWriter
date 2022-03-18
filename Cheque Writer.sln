@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChequeWriter", "ChequeWriter\ChequeWriter.csproj", "{DD8BFB5C-B06D-4902-AE88-893E58838589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChequeWriterLib", "ChequeWriterLib\ChequeWriterLib.csproj", "{F3C2621E-0F71-4E12-BCD5-20919814CD5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChequeWriterLibTests", "ChequeWriterLibTests\ChequeWriterLibTests.csproj", "{AA04E03B-84C2-418B-B017-B98B532F1082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD8BFB5C-B06D-4902-AE88-893E58838589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8BFB5C-B06D-4902-AE88-893E58838589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8BFB5C-B06D-4902-AE88-893E58838589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8BFB5C-B06D-4902-AE88-893E58838589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C2621E-0F71-4E12-BCD5-20919814CD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C2621E-0F71-4E12-BCD5-20919814CD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C2621E-0F71-4E12-BCD5-20919814CD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C2621E-0F71-4E12-BCD5-20919814CD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA04E03B-84C2-418B-B017-B98B532F1082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA04E03B-84C2-418B-B017-B98B532F1082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA04E03B-84C2-418B-B017-B98B532F1082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA04E03B-84C2-418B-B017-B98B532F1082}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
